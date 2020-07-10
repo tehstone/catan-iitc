@@ -2,7 +2,10 @@
 // @id           catan-iitc@tehstone
 // @name         Catan Tools
 // @category     Layer
-// @version      0.1.0
+// @version      0.2.0
+// @namespace    https://github.com/tehstone/catan-iitc
+// @downloadURL  https://github.com/tehstone/catan-iitc/raw/master/catan.user.js
+// @homepageURL  https://github.com/tehstone/catan-iitc
 // @description  Catan World Explorers tools over IITC
 // @author       tehstone
 // @match        https://www.ingress.com/intel*
@@ -2974,7 +2977,3 @@ img.photo,
     wrapperPlugin(plugin_info);
   }
 })();
-
-
-//  background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAMAAADXqc3KAAABoVBMVEUAAADBu67BvK8Ae8Xm4tHc18etp5jl4NDBvK2nmo7h3MxoUknf3Mu1r6DAvK/l4dDRzb7Bu6/LxLXo4dLWzsDm4tPj3s8wKzq/v6/o4taxpJgAgNP/ABPRxroAgc/d2cm5s6PWz8Hd2cnMxrfxAAoAidsAdrzc1ca5s6QAkecAcbTm4dBPo9RGns5GqeBClsQ+jrk4ha7BvK65s6Po49O2saHl4NG5s6Pp5NS3sKGeDhfX0cPMx7bl39C5s6TV0MCyrJ4EecAEdLfl4NC6s6S3r6Pn5NPwAAmsppe4sqUAl/UAb67l4c8Ai9oAdLy4sKHIw7S3sqPuAAsAjeQAcrXp4dK8tKX/AAyUDRskJEnBvK/c1sfo49Pl4NDTzr/HwrPJw7bg28vNx7nGwLLAuqy8tqnZ08TQyru+uKvVz8DBu624saTa1MXX0cLDvbG/uaq3sKNfRj3i3c7h3M3f2sve2Mnl4dEAgc/LxbbBvbDDuau7tKe8sKOknpacl5OnmYyLhoV7dndVUVoAidvRy7wAdrytqKGmn5dmYWdjXmS2CA7KjyJJAAAAWnRSTlMAUOn+7T029+vr6eXd1tDCooBXUTczMjAgFRURDQv7+vj28vDv7u7o3dnZ0sjFxMTExMLAs7OlpJWVkYyMiId+fnZ1bGtZVlZTT0xMRURERDMxLiYmIiIVEwd4pmW4AAABgUlEQVQoz3XQZVdjMRAG4JS2iy/O7sKyLri7u7szuUmu9kqNGu4Ov5opX+CclvdTzjxnJsmQN9nZXv1K0uXT0593oHdqKy2MjJK0WfjmXkxXX/u77/63nlqvrLned9/WVqbAbGN9Q1Nzy1xqi5SIBsD/pjA06eqf+IAg2YEDBG9xn6t4GKHuV87PrGlCgtLFhbxLSIkn8//vfIT2WNQMv3Q8PCahLBG3RQdCt8Rtp4IQym5kDeGLxOhBD8J8gJqtrs8uGg1wcYyHgnhQLCGU+HxaVsbHDE3WQiEHDznUdGYQxhSfqusWJGMA6NZ3zsU4woBPVR0Ay4LLyySFGFX1QYRO5erU0AG4fHYmcwDB7q5EF0KBcu93DANoTFIYBUNmoVPRhpAXxDtweEw6OtqjACajXK9GyFRsOXwMh/GTSOREOgTOTC5+4H+YYqphv6XtnUci5wnNCtqUi90KUsbwueH8okJPdm5utqewKA9HaX7c0Ua5t3Sl6nXbVeWl3uVN8gwRMmy+jlYyqwAAAABJRU5ErkJggg==);
-// background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAMAAADXqc3KAAABX1BMVEUAAAD/AADn6u98tB7/AA7/AA69yc3P19twgIeYaUp2eIB/uCKix2qryId4th97rR5djGJ6tR34AA2qh2qllGmff2x1eoOwlISFviuzxrThAQp5tR24xsCLvz/G2rOjxne0zJ5tgIm8z7N6tB+VY2NqgIrm6+//AA5OzuaebEnUy8V7th2Zc168s7C2nI2XaEmchm52nZeKhXGDvSXhAQrc4eb3AA3j6Ozf5urY3OHb3eDg2tzV09fWz8tdvMnK3bh7iHuigWWkfmGSel+SblTwR1H1LjqHvyn+CBbYAwjh5urf6OPY2d3R2Nzi1NrY5dXZ09DCxcvixMrQ4cPhvMPR4sDiq7Hjo6qpqaSsxKFxoqC71pu70JjkkJeFj5flh4+x0YimxYZ8j4Xle4SvyYKwmYLpbHSCemmawmXrWWOFcF3tUl2XdVe8qFaeclTxPUjzN0L5Hir7GSbkAQvWBAcsCSLkAAAAJnRSTlMAB2BEs7nAQED+8f7jcyEMBfvz8vLx7Ojm4NTSz7J1Z19UUEskGInQITEAAAEXSURBVCjPbczlUsNAFIbhbEuApIq7w1lSAilE6q64u7s79z/sph02KXlm9s/3zh7OAiHOEWrikfOOMSu2vVwmJdhKTNn2j2TyHfOT3aIojln30gpArIT5fk1btO7POhD6I26nge13UTBFr7Hx88328wjURU6xof3t+2Cxhw1U26s7YLNV5RHdv9agQeKTFs4FiRCxATqkQlQKXGSmYe4pm72XV8/03DyVY+EqnT6SN19j4WkqzEKxUHiRlw7gX1AkSZIBnMJbkYb8ApW3/VBIiM/WxBtOMfVwcmuGG4Dl7d3M+nHmYpjuwaHOHkUQhK4Or9ejqpWKqqq9ExznH3g4HGym+i5nTB7y2vxcwD3iG2+hRn1uJvAL1ThByGyKR5AAAAAASUVORK5CYII=);
